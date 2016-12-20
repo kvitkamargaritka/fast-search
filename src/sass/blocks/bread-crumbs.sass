@@ -1,0 +1,22 @@
+.bread-crumbs
+	position: relative
+
+	&__el
+		padding-right: 10px
+		display: inline-block
+		cursor: pointer
+		&:after
+			content: '/'
+			position: absolute
+			top: 0
+			left: 45px
+			color: #bfbfbf
+		&:last-child
+			&:after
+				display: none
+		&.is-active
+			text-decoration: underline
+			color: #bfbfbf
+	&__text
+		font-size: 14px
+		color: #bfbfbf

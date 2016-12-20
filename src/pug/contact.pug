@@ -1,0 +1,57 @@
+extends layout/layout.pug
+
+block content
+	.banner.is-about.parallax-js
+		.container
+			.bread-crumbs
+				ul.bread-crumbs__list
+					li.bread-crumbs__el.is-active
+						span.bread-crumbs__text Home
+					li.bread-crumbs__el
+						span.bread-crumbs__text Contact
+	section.section.is-contact
+		.container
+			.contact
+				.row
+					.col.col-md-6
+						h3.contact__title.i-upper Say hi
+						p.contact__descr Curabitur suscipit lorem in turpis rutrum facilisis. Sed risus erat,
+							|varius et orci non, eleifend ultricies tortor.
+						form.form
+							.form__name
+								input(type="text" placeholder="Full name")
+							.form__mail
+								input(type="mail" placeholder="E-mail")
+							.form__message
+								textarea(name="Message" rows="9" class="form__field") Message
+							.form__action
+								span.btn.is-red.is-submit Submit
+					.col.col-md-6
+						h3.contact__title.i-upper Location
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36457.98979053522!2d-73.97250994821128!3d40.66453776951047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1481312735551" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+						.row
+							.col.col-md-6
+								ul.contact__list
+									li.contact__el
+										span 154 Street Name 242
+									li.contact__el
+										span Cityname, 12345
+									li.contact__el
+										span Country
+									li.contact__el
+										span Phone: ++1 234 56789
+									li.contact__el
+										span Mobile: ++9 876 54321
+								a(href="mailto:info.city@domainame.com" class="contact__mail")
+							.col.col-md-6
+								ul.contact__list
+									li.contact__el
+										span 154 Street Name 242
+									li.contact__el
+										span Cityname, 12345
+									li.contact__el
+										span Country
+									li.contact__el
+										span Phone: ++1 234 56789
+									li.contact__el
+										span Mobile: ++9 876 54321

@@ -1,0 +1,56 @@
+.owl-nav
+	position: absolute
+	top: -45px
+	right: 0
+
+.owl-prev,
+.owl-next
+	width: 12px
+	height: 17px
+	position: relative
+	display: inline-block
+
+	&:hover
+		&:after,&:before
+			background-color: $red
+
+.owl-prev
+
+	&::after,
+	&::before
+		content: ''
+		position: absolute
+		width: 11px
+		height: 3px
+		background-color: #a1a1a1
+
+	&::before
+		top: 4px
+		left: 0
+		transform: rotate(-45deg)
+
+	&::after
+		top: 10px
+		left: 0
+		transform: rotate(45deg)
+
+.owl-next
+	margin-left: 5px
+
+	&::after,
+	&::before
+		content: ''
+		position: absolute
+		width: 11px
+		height: 3px
+		background-color: #a1a1a1
+
+	&::before
+		top: 4px
+		left: 0
+		transform: rotate(45deg)
+
+	&::after
+		top: 10px
+		left: 0
+		transform: rotate(-45deg)

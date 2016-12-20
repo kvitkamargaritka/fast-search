@@ -1,0 +1,164 @@
+body
+	font-family: 'Open Sans', sans-serif
+	font-size: 14px
+	line-height: 1.4
+
+a
+	display: block
+	color: #fff
+	text-decoration: none
+	cursor: pointer
+	&:hover
+		text-decoration: none
+		color: #fff
+	&:focus
+		text-decoration: none
+		color: #fff
+
+//typo
+h1
+	font-size: 64px
+	color: #fff
+	font-weight: 300
+	text-transform: uppercase
+
+h2
+	font-size: 38px
+
+h3
+	font-size: 22px
+
+h4
+	font-size: 18px
+	color: #fff
+	font-weight: 700
+	text-transform: uppercase
+
+.container
+	width: 1020px
+	margin: 0 auto
+
+//variables
+$red: #e74c3c
+$brown: #363636
+$hoverColor: #f46758
+$textColor: #3e3e3e
+
+.i-upper
+	text-transform: uppercase
+
+.is-red
+	color: $red
+
+.is-italic
+	font-style: italic
+
+// common blocks
+
+.logo
+	float: left
+	margin-top: 15px
+	margin-left: 15px
+
+.privilege
+
+	&__title
+		padding-bottom: 30px
+		color: $textColor
+		font-weight: 700
+		text-transform: uppercase
+
+.social
+
+	&__list
+		margin: 15px 0
+
+	&__el
+		display: inline-block
+		padding-right: 10px
+
+.privilege
+	&__title
+		padding-bottom: 30px
+		color: $textColor
+		text-transform: uppercase
+		font-weight: 700
+	&__list
+		list-style-type: square
+		color: red
+
+	&__el
+		padding-bottom: 30px
+
+	&__text
+		color: $textColor
+
+.product
+	margin-bottom: 20px
+	&__title
+		font-weight: bold
+		padding-bottom: 20px
+	&__subtitle
+		font-size: 16px
+		font-weight: bold
+	&__descr
+		padding-bottom: 30px
+	&__img
+		margin-right: 10px
+
+.form
+	&__name, &__mail
+		margin-bottom: 10px
+		input
+			padding-left: 10px
+			height: 45px
+			line-height: 45px
+			width: 100%
+			background-color: #f7f7f7
+			border: 1px solid #f7f7f7
+
+	&__field
+		width: 100%
+		margin-bottom: 10px
+		background-color: #f7f7f7
+		border: 1px solid #f7f7f7
+
+	&__action
+		width: 100%
+		span
+			display: block
+			text-align: center
+			background-color: $red
+
+.section
+	padding: 50px 0
+	&.is-blog
+		.item
+			&__top
+				padding-bottom: 65px
+			&__title
+				padding-bottom: 30px
+				font-weight: bold
+			&__descr
+				padding: 15px 0
+				font-size: 14px
+				color: $textColor
+			&__date
+				font-size: 12px
+				color: #808080
+			&__bg
+				width: 100%
+				height: 250px
+				&_1
+					background: url(../img/slide-1.jpg) no-repeat
+					background-size: cover
+
+.contact
+	&__title
+		padding-bottom: 20px
+
+	&__descr
+		padding-bottom: 20px
+
+	&__list
+		padding: 15px 0

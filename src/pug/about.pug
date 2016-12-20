@@ -1,0 +1,145 @@
+extends layout/layout.pug
+
+block content
+	.banner.is-about.parallax-js
+		.container
+			.bread-crumbs
+				ul.bread-crumbs__list
+					li.bread-crumbs__el.is-active
+						span.bread-crumbs__text Home
+					li.bread-crumbs__el
+						span.bread-crumbs__text About us
+	section.section.is-contact
+		.container
+			.row
+				.col.col-md-9
+					.privilege
+						h3.privilege__title History
+						p.privilege__descr
+							|Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec dolor
+							|dui. Phasellus vitae dapibus velit, a bibendum mi. Nunc fringilla
+							|augue non nibh pellentesque, non ultricies quam hendrerit. Morbi
+							|laoreet velit risus, in facilisis urna interdum id. Sed quis eros tortor.
+						p.privilege__descr
+							|Suspendisse leo sem, tincidunt eget bibendum in, finibus quis purus.
+							|Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+							|per inceptos himenaeos. Sed ultrices odio arcu, et mollis leo auctor
+							|eu. Vestibulum in eleifend metus, ut malesuada leo. Donec vel metus
+							|facilisis, pellentesque turpis sed, commodo turpis.
+						p.privilege__descr
+							|Curabitur tincidunt ullamcorper interdum. Nam eleifend diam ut semper
+							|fermentum. Nulla a sagittis mi.
+				.col.col-md-3
+					.privilege
+						h3.privilege__title Values
+						ul(type='square').privilege__list
+							li.privilege__el
+								span.privilege__text
+									|Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit
+									|varius mi.
+							li.privilege__el
+								span.privilege__text
+									|Cum sociis natoque penatibus et magnis dis parturient montes,
+									|nascetur ridiculus mus.
+							li.privilege__el
+								span.privilege__text
+									|Ut tellus dolor, dapibus eget
+		.info.parallax-js
+			.container
+				h2.info__title Why us
+				.row
+					.col.col-md-3
+						p.info__descr
+							|Cras in interdum nisi, vitae blandit lectus. In imperdiet dolor
+							|eu justo rhoncus, id auctor lacus. aliquet.Vivamus id tellus massa.
+							|Proin pellentesque volutpat enim, a ultrices turpis euismod ut.
+					.col.col-md-3
+						p.info__descr
+							|Cras in interdum nisi, vitae blandit lectus. In imperdiet dolor
+							|eu justo rhoncus, id auctor lacus. aliquet.Vivamus id tellus massa.
+							|Proin pellentesque volutpat enim, a ultrices turpis euismod ut.
+					.col.col-md-3
+						p.info__descr
+							|Cras in interdum nisi, vitae blandit lectus. In imperdiet dolor
+							|eu justo rhoncus, id auctor lacus. aliquet.Vivamus id tellus massa.
+							|Proin pellentesque volutpat enim, a ultrices turpis euismod ut.
+					.col.col-md-3
+						p.info__descr
+							|Cras in interdum nisi, vitae blandit lectus. In imperdiet dolor
+							|eu justo rhoncus, id auctor lacus. aliquet.Vivamus id tellus massa.
+							|Proin pellentesque volutpat enim, a ultrices turpis euismod ut.
+
+		.container
+			.row
+				.col.col-md-6
+					.slider.is-about
+						h3.slider__title Oportunities
+						.slider__wrap
+							.slider__item
+								.slider__descr
+									p.is-red Maecenas ut sem ac tellus tempus hendrerit
+									p
+										|Curabitur suscipit lorem in turpis rutrum facilisis.
+										|Sed risus erat, varius et orci non, eleifend ultricies tortor.
+										|Duis tempus commodo velit, quis aliquet augue cursus a. Aliquam
+										|auctor vitae libero sit amet dictum.
+								.slider__descr
+									p.is-red Etiam venenatis - neque placerat ut
+									p
+										|Suspendisse leo sem, tincidunt eget bibendum in, finibus quis
+										|purus. Class aptent taciti sociosqu ad litora torquent per
+										|conubia nostra, per inceptos himenaeos.  In quis purus nibh.
+										|Curabitur euismod!
+							.slider__item
+								.slider__descr
+									p.is-red Maecenas ut sem ac tellus tempus hendrerit
+									p
+										|Curabitur suscipit lorem in turpis rutrum facilisis.
+										|Sed risus erat, varius et orci non, eleifend ultricies tortor.
+										|Duis tempus commodo velit, quis aliquet augue cursus a. Aliquam
+										|auctor vitae libero sit amet dictum.
+								.slider__descr
+									p.is-red Etiam venenatis - neque placerat ut
+									p
+										|Suspendisse leo sem, tincidunt eget bibendum in, finibus quis
+										|purus. Class aptent taciti sociosqu ad litora torquent per
+										|conubia nostra, per inceptos himenaeos.  In quis purus nibh.
+										|Curabitur euismod!
+
+				.col.col-md-6
+					.slider.is-about
+						h3.slider__title Testimonials
+						.slider__wrap
+							.slider__item
+								.slider__descr
+									p
+										|“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec
+										|dolor dui. Phasellus vitae dapibus velit, a bibendum mi. Nunc
+										|fringilla augue non nibh pellentesque, non ultricies quam hendrerit.”
+									p.is-italic
+										|John Doe, Doe Inc
+								.slider__descr
+									p
+										|“Quisque suscipit quam vel tortor luctus, sit amet sagittis ante
+										|eleifend. In quis purus nibh. Curabitur euismod, nunc a aliquam
+										|dictum, magna mauris vestibulum massa, nec luctus arcu ligula quis
+										|tortor.”
+									p.is-italic
+										|Pierre Tsukurov, iCompanyName
+
+							.slider__item
+								.slider__descr
+									p
+										|“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec
+										|dolor dui. Phasellus vitae dapibus velit, a bibendum mi. Nunc
+										|fringilla augue non nibh pellentesque, non ultricies quam hendrerit.”
+									p.is-italic
+										|John Doe, Doe Inc
+								.slider__descr
+									p
+										|“Quisque suscipit quam vel tortor luctus, sit amet sagittis ante
+										|eleifend. In quis purus nibh. Curabitur euismod, nunc a aliquam
+										|dictum, magna mauris vestibulum massa, nec luctus arcu ligula quis
+										|tortor.”
+									p.is-italic
+										|Pierre Tsukurov, iCompanyName
